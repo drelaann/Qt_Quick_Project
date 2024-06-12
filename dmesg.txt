@@ -1,0 +1,54 @@
+[    0.983908] ACPI: bus type USB registered
+[    0.983908] usbcore: registered new interface driver usbfs
+[    0.983908] usbcore: registered new interface driver hub
+[    0.983908] usbcore: registered new device driver usb
+[    3.418761] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 1
+[    3.474524] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 2
+[    3.474527] xhci_hcd 0000:01:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[    3.474586] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.05
+[    3.474588] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.474589] usb usb1: Product: xHCI Host Controller
+[    3.474591] usb usb1: Manufacturer: Linux 6.5.0-25-generic xhci-hcd
+[    3.474592] usb usb1: SerialNumber: 0000:01:00.0
+[    3.474717] hub 1-0:1.0: USB hub found
+[    3.475142] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    3.475163] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.05
+[    3.475165] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.475167] usb usb2: Product: xHCI Host Controller
+[    3.475168] usb usb2: Manufacturer: Linux 6.5.0-25-generic xhci-hcd
+[    3.475169] usb usb2: SerialNumber: 0000:01:00.0
+[    3.475250] hub 2-0:1.0: USB hub found
+[    3.475557] xhci_hcd 0000:08:00.3: new USB bus registered, assigned bus number 3
+[    3.476038] xhci_hcd 0000:08:00.3: new USB bus registered, assigned bus number 4
+[    3.476040] xhci_hcd 0000:08:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+[    3.476074] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.05
+[    3.476076] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.476078] usb usb3: Product: xHCI Host Controller
+[    3.476079] usb usb3: Manufacturer: Linux 6.5.0-25-generic xhci-hcd
+[    3.476080] usb usb3: SerialNumber: 0000:08:00.3
+[    3.476171] hub 3-0:1.0: USB hub found
+[    3.476376] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    3.476396] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.05
+[    3.476398] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.476400] usb usb4: Product: xHCI Host Controller
+[    3.476401] usb usb4: Manufacturer: Linux 6.5.0-25-generic xhci-hcd
+[    3.476402] usb usb4: SerialNumber: 0000:08:00.3
+[    3.476484] hub 4-0:1.0: USB hub found
+[    3.732234] usb 3-1: new low-speed USB device number 2 using xhci_hcd
+[    3.895155] usb 3-1: New USB device found, idVendor=2a7a, idProduct=939f, bcdDevice= 0.01
+[    3.895162] usb 3-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    3.895166] usb 3-1: Product: CASUE USB KB
+[    4.044224] usb 3-2: new low-speed USB device number 3 using xhci_hcd
+[    4.209150] usb 3-2: New USB device found, idVendor=10c4, idProduct=8108, bcdDevice= 0.00
+[    4.209155] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    4.209158] usb 3-2: Product: USB OPTICAL MOUSE
+[    4.209160] usb 3-2: Manufacturer: YSPRINGTECH
+[    5.491194] usbcore: registered new interface driver usbhid
+[    5.491197] usbhid: USB HID core driver
+[    5.492724] input: CASUE USB KB as /devices/pci0000:00/0000:00:08.1/0000:08:00.3/usb3/3-1/3-1:1.0/0003:2A7A:939F.0001/input/input2
+[    5.552464] hid-generic 0003:2A7A:939F.0001: input,hidraw0: USB HID v1.10 Keyboard [CASUE USB KB] on usb-0000:08:00.3-1/input0
+[    5.552558] input: CASUE USB KB Consumer Control as /devices/pci0000:00/0000:00:08.1/0000:08:00.3/usb3/3-1/3-1:1.1/0003:2A7A:939F.0002/input/input3
+[    5.612331] input: CASUE USB KB System Control as /devices/pci0000:00/0000:00:08.1/0000:08:00.3/usb3/3-1/3-1:1.1/0003:2A7A:939F.0002/input/input4
+[    5.612438] hid-generic 0003:2A7A:939F.0002: input,hidraw1: USB HID v1.10 Device [CASUE USB KB] on usb-0000:08:00.3-1/input1
+[    5.612533] input: YSPRINGTECH USB OPTICAL MOUSE as /devices/pci0000:00/0000:00:08.1/0000:08:00.3/usb3/3-2/3-2:1.0/0003:10C4:8108.0003/input/input5
+[    5.612667] hid-generic 0003:10C4:8108.0003: input,hidraw2: USB HID v1.11 Mouse [YSPRINGTECH USB OPTICAL MOUSE] on usb-0000:08:00.3-2/input0
